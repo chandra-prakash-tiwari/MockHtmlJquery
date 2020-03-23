@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/JqueryValidator.js"></script>
+</head>
+
+<body>
+    <div class="contact-container">
+        <div class="header">
+            <p>TECHNOVERT</p>
+        </div>
+        <div class="nav-container">
+            <a href="home.html" class="button"><b>HOME</b></a>
+            <a href="#" class="button"><b>SERVICES</b></a>
+            <a href="careers.html" class="button"><b>CAREERS</b></a>
+            <a href="contact.html" class="button"><b>CONTACT</b></a>
+        </div>
+        <div class="contact-form">
+            <form action="home.html" class="contact" name="contact">
+                <div class="property">
+                    <p class="instruction">* Required field</p>
+                </div>
+                <div class="property">
+                    <label for="username" class="label">My Name:</label>
+                    <input class="field" type="text" id="name" name="name" required>
+                    <p class="error">*</p>
+                    <p id="name-required" style="display: none;">Name is required</p>
+                </div>
+                <div class="property">
+                    <label for="email" class="label">My Email Address:</label>
+                    <input class="field" type="email" id="email" name="email" required>
+                    <p class="error">*</p>
+                    <p id="email-required" style="display: none;">Email is required</p>
+                    <p id="invalid-email" style="display: none;">Please enter valid email</p>
+                </div>
+                <div class="property">
+                    <label for="telephone" class="label">My Telephone Number:</label>
+                    <input class="field" type="text" id="telephone" name="telephone">
+                </div>
+                <div class="property">
+                    <label for="organisation" class="label">My Organization Name:</label>
+                    <input class="field" type="text" id="organisation" name="organisation" required>
+                    <p class="error">*</p>
+                    <p id="org-required" style="display: none;">Organisation is required</p>
+                </div>
+                <div class="property">
+                    <label for="city" class="label">My City:</label>
+                    <input class="field" type="text" id="city" name="city">
+                </div>
+                <div class="property">
+                    <label for="state" class="label">My State or Province</label>
+                    <select name="state" id="state">
+                    <option value="">Select State or Province</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                </select>
+                </div>
+                <div class="property">
+                    <label for="contact-type" class="label">Please Contact Me By:</label>
+                    <div class=" radiobox">
+                        <div class="rd-content">
+                            <label for="emailtype" class="contact-type">Email</label>
+                            <input class="fieldradio" type="radio" name="contact-type" id="contact-type" value="email">
+                        </div>
+                        <div class="rd-content">
+                            <label for="phonetype" class="contact-type">Phone</label>
+                            <input class="fieldradio" type="radio" name="contact-type" value="phone">
+                        </div>
+                        <div class="rd-content">
+                            <label for="bothtype" class="contact-type">Both</label>
+                            <input class="fieldradio" type="radio" name="contact-type" value="both">
+                        </div>
+                    </div>
+                </div>
+                <div class="property">
+                    <label for="gendetype" class="label">Gender:</label>
+                    <div class=" radiobox">
+                        <div class="rd-content">
+                            <label for="maletype" class="gendertype">Male</label>
+                            <input class="fieldradio" type="radio" id="male" name="gendertype" value="male">
+                        </div>
+                        <div class="rd-content">
+                            <label for="femaletype" class="gendertype">Female</label>
+                            <input class="fieldradio" type="radio" id="female" name="gendertype" value="female">
+                        </div>
+                    </div>
+                </div>
+                <div class="property">
+                    <label for="promotioncode" class="label">Promotion Code:</label>
+                    <input class="field" type="text" name="promotion"><br>
+                </div>
+                <div class="optional">
+                    <p class="label"><b>Optional Information</b></p>
+                    <p><i>This information is optional but it help us to serve you better</i></p>
+                </div>
+                <div class="property">
+                    <label for="website" class="label">MyWebsite Address is :</label>
+                    <input class="field" type="text" name="website">
+                </div>
+                <div class="property">
+                    <label for="aboutyourorg" class="label">Tell Us More About Your Organization:</label>
+                    <textarea name="aboutorganisation"></textarea>
+                </div>
+                <div class="property">
+                    <label for="aboutmyorg" class="label">What I'd really like to know is:</label><br>
+                    <textarea name="aboutorganisation"></textarea>
+                </div>
+                <div class="property">
+                    <button type="submit" class="contactbutton"><b>Send Message</b></button>
+                    <button type="reset" class="contactbutton"><b>Clear Form</b></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

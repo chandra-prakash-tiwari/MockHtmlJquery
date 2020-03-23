@@ -1,0 +1,39 @@
+body {
+    margin: auto;
+}
+
+.header {
+    padding: 2% 1%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    background-color: #3399cc;
+    color: #f7fbfd;
+    margin: auto;
+}
+
+.header p {
+    margin: auto;
+}
+
+.nav-container .button {
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #f7f7f7;
+    border: 0px solid #333333;
+    text-decoration: none;
+}
+
+.nav-container .navbutton:hover {
+    padding: 10px 12px 10px;
+    font-size: 15px;
+    font-style: bold;
+    background-color: #ff9900;
+    color: #2f3134;
+}
+
+.nav-container {
+    background-color: #333333;
+    padding: 0.5%;
+    height: 5%;
+}
