@@ -19,14 +19,17 @@ body {
     margin: 10px;
     font-size: 18px;
     font-family: 'Noto Sans', sans-serif;
+    padding: 10px 12px 10px;
     color: #f7f7f7;
     border: 0px solid #333333;
     text-decoration: none;
 }
 
-.nav-container .navbutton:hover {
+.nav-container .button:hover {
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
     padding: 10px 12px 10px;
-    font-size: 15px;
     font-style: bold;
     background-color: #ff9900;
     color: #2f3134;

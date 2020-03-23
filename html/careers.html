@@ -5,8 +5,11 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/careers.css">
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script> 
+    <script src="../js/jqueryvalidator.js"></script>
 </head>
 
 <body>
@@ -40,11 +43,11 @@
                 </div>
                 <div class="property">
                     <label for="resume"><b>Upload Resume</b></label>
-                    <input type="text" class="field">
+                    <input type="file" name="resume" id="resume" required class="field">
+                    <input id="resumepath" type="text" class="field" disabled="disabled" style="color: white;">
                     <label for="resume" class="resume"><b>Browse...</b></label>
-                    <input type="file" name="resume" id="resume" required class="resume">
                 </div>
-                <button type="submit"><b>Submit</b></button>
+                <button type="submit" class="submit"><b>Submit</b></button>
             </form>
         </div>
     </div>

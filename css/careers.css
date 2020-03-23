@@ -4,15 +4,15 @@
 }
 
 .careers-container .about-container .heading {
+    font-family: 'Questrial', sans-serif;
     font-size: 190%;
     margin: auto;
 }
 
 .careers-container .careers-form {
     font-family: 'Noto Sans', sans-serif;
-    overflow: auto;
+    overflow: hidden;
     padding: 1% 3%;
-    width: 32.5%;
 }
 
 .careers-container .careers-form .property {
@@ -21,29 +21,29 @@
 }
 
 .careers-container .careers-form .field {
-    position: relative;
-    right: 26%;
+    position: absolute;
+    right: 70%;
     float: right;
-    padding: 1%;
+    height: 25px;
+}
+
+.careers-container .careers-form .submit{
+    position: absolute;
+    font-size: 17px;
+    left: 19.4%;
+    width: 9%;
+    height: 31px;
 }
 
 .careers-container .careers-form .resume {
-    position: relative;
-    left: 35%;
-    width: 16%;
+    position: absolute;
+    right:59%;
+    width: 5%;
     float: right;
     padding: 0% 2%;
     border: 1px solid #ccc;
     background-color: #eeeeee;
     color: #333333;
-}
-
-.careers-container .careers-form button {
-    position: relative;
-    right: 40%;
-    float: right;
-    width: 21.2%;
-    padding: 1%;
 }
 
 .careers-container .careers-form input[type="file"] {
@@ -54,5 +54,5 @@
     border: 1px solid #ccc;
     background-color: #eeeeee;
     color: #333333;
-    padding: 2%;
+    width: 5%;
 }

@@ -18,6 +18,10 @@ $(document).ready(function(){
     $("#female").click(function(){
         alert("Hello mam!");
     });
+
+    $("#resume").change(function(){
+        $("#resumepath").val($("#resume").val().split("C:\\fakepath\\")[1]);
+      });
 });
 
 function namevalidator(){
