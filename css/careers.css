@@ -30,7 +30,7 @@
 .careers-container .careers-form .submit{
     position: absolute;
     font-size: 17px;
-    left: 19.4%;
+    left: 19.5%;
     width: 9%;
     height: 31px;
 }
@@ -48,6 +48,12 @@
 
 .careers-container .careers-form input[type="file"] {
     display: none;
+}
+
+.careers-container .careers-form .property .filesname{
+    float: right;
+    margin: auto;
+    width: 41rem;
 }
 
 .careers-container .careers-form #resume {

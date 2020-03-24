@@ -20,7 +20,12 @@ $(document).ready(function(){
     });
 
     $("#resume").change(function(){
-        $("#resumepath").val($("#resume").val().split("C:\\fakepath\\")[1]);
+        var file_count = document.getElementById('resume').files.length;
+        for(var count=0;count<file_count-1;count++){
+            var appendfilename= appendfilename+ document.getElementById('resume').files[count].name+"   "; 
+        }
+        var filesname=$("<p class='filesname'></p>").text(appendfilename.split("undefined")[1])
+        $("#browse").after(filesname); 
       });
 });
 
